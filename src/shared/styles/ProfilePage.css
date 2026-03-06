@@ -1,0 +1,30 @@
+.profile-page h1 {
+  font-size: 1.75rem;
+  margin: 0 0 1.5rem;
+  color: var(--text);
+}
+
+.profile-info {
+  padding: 1.25rem;
+  background: var(--bg-secondary);
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  margin-bottom: 2rem;
+}
+
+.profile-info p {
+  margin: 0 0 0.5rem;
+}
+
+.profile-info button {
+  margin-top: 1rem;
+}
+
+.profile-orders h2 {
+  font-size: 1.25rem;
+  margin: 0 0 1rem;
+}
+
+.profile-orders-empty {
+  color: var(--text-muted);
+}

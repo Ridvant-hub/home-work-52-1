@@ -1,0 +1,39 @@
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg) 100%);
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  border: 1px solid var(--border);
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin: 0 0 0.75rem;
+  color: var(--text);
+}
+
+.hero p {
+  color: var(--text-muted);
+  margin: 0 0 1.5rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featured h2 {
+  font-size: 1.5rem;
+  margin: 0 0 1.5rem;
+  color: var(--text);
+}
+
+.home .product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.featured .btn-secondary {
+  display: inline-block;
+}

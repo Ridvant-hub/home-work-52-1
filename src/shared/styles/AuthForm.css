@@ -1,0 +1,52 @@
+.auth-form {
+  max-width: 360px;
+  padding: 1.5rem;
+}
+
+.auth-form h3 {
+  margin: 0 0 1.25rem;
+  font-size: 1.25rem;
+}
+
+.auth-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.auth-form .form-group label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+  color: var(--text-muted);
+}
+
+.auth-form .form-group input {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 1rem;
+}
+
+.auth-form-error {
+  color: var(--danger);
+  font-size: 0.9rem;
+  margin: 0 0 1rem;
+}
+
+.auth-form-toggle {
+  display: block;
+  margin-top: 1rem;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.auth-form-toggle:hover {
+  color: var(--accent);
+}
